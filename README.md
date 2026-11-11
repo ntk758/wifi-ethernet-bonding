@@ -59,3 +59,6 @@ py -m unittest test_dualproxy test_dualdl
 ## 注意
 - 効果は回線の組み合わせ次第です。片方が極端に遅いと、束ねないほうが速いこともあります。
 - 外から見たIPv6アドレスは、TCP(サーバー経由)とUDP(直接)で変わります。これを嫌うサービスがあれば、そのアプリをトンネルの対象外にしてください。
+
+## ライセンス
+MIT License ([LICENSE](LICENSE))
