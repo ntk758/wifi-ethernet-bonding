@@ -1,0 +1,21 @@
+# 公開するファイルだけを許可する (鍵・ログ・バイナリを誤って含めないため)
+/*
+!/.gitignore
+!/README.md
+!/SETUP.md
+!/dualproxy.py
+!/dualdl.py
+!/check_paths.py
+!/share_server_files.py
+!/test_dualproxy.py
+!/test_dualdl.py
+!/install_client.ps1
+!/install_server.ps1
+!/start_client.ps1
+!/start_server.ps1
+!/singbox/
+/singbox/*
+!/singbox/config.json
+!/singbox/install_tun.ps1
+!/singbox/remove_tun.ps1
+!/singbox/start_tun.ps1
